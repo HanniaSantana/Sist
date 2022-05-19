@@ -1,0 +1,125 @@
+﻿@font-face {
+    font-family: bison;
+    src: url('../fonts/Bison-Bold.ttf');
+}
+
+@font-face {
+    font-family: playFairRegular;
+    src: url('../fonts/PlayfairDisplay-Regular.ttf');
+}
+
+@font-face {
+    font-family: sourceSansProBlack;
+    src: url('../fonts/SourceSansPro-Black.ttf');
+}
+
+@font-face {
+    font-family: monserratRegular;
+    src: url('../fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: myriadArabicBold;
+    src: url('../fonts/Myriad Arabic Bold.ttf');
+}
+
+.headerPage {
+    font-size: 7em;
+    font-family: playFairRegular;
+}
+
+.subTitle {
+    font-family: sourceSansProBlack;
+}
+
+.textContent {
+    font-family: monserratRegular !important;
+    font-size: 0.9rem;
+}
+
+.footerPage {
+    font-family: myriadArabicBold;
+}
+
+.fondoImgPrincipal {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('/Images/finanzas.jpg');
+    background-size: cover;
+}
+
+.list-group-item {
+    border: 0;
+    border-right: solid 1px black;
+}
+
+    .list-group-item:last-child {
+        border: 0;
+    }
+
+li > a {
+    text-decoration: none;
+    color: black;
+}
+
+.pr {
+    /*presentacionText*/
+    font-size: 7em;
+    font-family: bison;
+}
+
+.noResize {
+    resize: none;
+}
+
+.nav-link {
+    color: black;
+}
+
+/*#FF8049;;*/
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #199A67;
+}
+
+.nav-link:hover {
+    color: #199A67;
+    background-color: transparent;
+}
+
+thead {
+    text-align: center;
+    background-color: #FFF57E;
+}
+
+tbody {
+    text-align: center;
+}
+
+.bg-green {
+    background-color: #199A67;
+}
+
+.bg-greenAlt {
+    background-color: #00AD68;
+}
+
+.bg-yellow {
+    background-color: #FFF57E;
+}
+
+.bg-orange {
+    background-color: #FF8049;
+}
+
+
+tr {
+    padding: 0;
+}
+
+.fs-7 {
+    font-size: 0.75rem;
+}
+
+#tblDatos td {
+    padding: 2px;
+}
+

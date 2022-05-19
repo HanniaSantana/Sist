@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5b245d6a41d04ae89fa81dddbafd0a0f" Name="Diagram1" ZoomLevel="86">
+        <EntityTypeShape EntityType="SistModel.BeneficiosDeEntidadesFinancieras" Width="1.5" PointX="5.25" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistModel.CaracteristicasDeEntidadesFinancieras" Width="1.5" PointX="6" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistModel.CondicionesDeProductos" Width="1.5" PointX="13.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistModel.FormasLegales" Width="1.5" PointX="0.75" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistModel.InfoPrestamos" Width="1.5" PointX="5.25" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistModel.MensajesDeContacto" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistModel.Paises" Width="1.5" PointX="0.75" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistModel.PlanesDeSuscripcion" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistModel.Regiones" Width="1.5" PointX="6" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistModel.RelacionEntidadesFinancierasRegiones" Width="1.5" PointX="8.25" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistModel.Roles" Width="1.5" PointX="10.75" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistModel.sysdiagrams" Width="1.5" PointX="10.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistModel.TasasActivasAnualesOperacionesMonedaExtranjera" Width="1.5" PointX="8.25" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistModel.TasasActivasAnualesOperacionesMonedaNacional" Width="1.5" PointX="5.25" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistModel.TasasAnuales" Width="1.5" PointX="3" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistModel.TiposDeEntidadesFinancieras" Width="1.5" PointX="0.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistModel.TiposDeOperaciones" Width="1.5" PointX="8.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistModel.Usuarios" Width="1.5" PointX="13" PointY="4" IsExpanded="true" />
+        <AssociationConnector Association="SistModel.FK__RelacionE__Regio__1332DBDC" ManuallyRouted="false" />
+        <AssociationConnector Association="SistModel.FK_Usuarios_Roles" ManuallyRouted="false" />
+        <AssociationConnector Association="SistModel.FK__TasasActi__TasaA__4E88ABD4" ManuallyRouted="false" />
+        <AssociationConnector Association="SistModel.FK__TasasActi__TasaA__4BAC3F29" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="SistModel.CostosRendimientosProductosFinancieros" Width="1.5" PointX="15.5" PointY="5.125" />
+        <EntityTypeShape EntityType="SistModel.ProductosFinancieros" Width="1.5" PointX="11" PointY="11.375" />
+        <EntityTypeShape EntityType="SistModel.TiposDeMoneda" Width="1.5" PointX="11" PointY="0.875" />
+        <AssociationConnector Association="SistModel.FK__Condicion__Produ__76969D2E" />
+        <AssociationConnector Association="SistModel.FK_CondicionesDeProductos_TiposDeMoneda" />
+        <AssociationConnector Association="SistModel.FK_CostosRendimientosProductosFinancieros_CondicionesDeProductos" />
+        <AssociationConnector Association="SistModel.FK_CostosRendimientosProductosFinancieros_ProductosFinancieros" />
+        <AssociationConnector Association="SistModel.FK_CostosRendimientosProductosFinancieros_Regiones" />
+        <AssociationConnector Association="SistModel.FK__Productos__TipoD__73BA3083" />
+        <EntityTypeShape EntityType="SistModel.EntidadesFinancieras" Width="1.5" PointX="3" PointY="8.25" />
+        <AssociationConnector Association="SistModel.FK__Beneficio__Entid__0F624AF8" />
+        <AssociationConnector Association="SistModel.FK_CostosRendimientosProductosFinancieros_EntidadesFinancieras" />
+        <AssociationConnector Association="SistModel.FK__Bancos__FormaLeg__300424B4" />
+        <AssociationConnector Association="SistModel.FK__Bancos__Pais__2F10007B" />
+        <AssociationConnector Association="SistModel.FK__Bancos__TipoDeBa__30F848ED" />
+        <AssociationConnector Association="SistModel.FK__InfoPrest__Banco__33D4B598" />
+        <AssociationConnector Association="SistModel.FK__RelacionE__Entid__123EB7A3" />
+        <AssociationConnector Association="SistModel.FK__TasasActi__Banco__4CA06362" />
+        <AssociationConnector Association="SistModel.FK__TasasActi__Banco__4F7CD00D" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
